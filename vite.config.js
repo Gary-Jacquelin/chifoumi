@@ -4,7 +4,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),VitePWA({ registerType: 'autoUpdate' , manifest: {
+  plugins: [react(),VitePWA({ registerType: 'autoUpdate' , 
+  manifest: {
     "theme_color": "#f69435",
     "background_color": "#f69435",
     "display": "browser",
