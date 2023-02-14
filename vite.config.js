@@ -14,8 +14,8 @@ export default defineConfig({
         display: "browser",
         scope: "/",
         start_url: "/",
-        name: "schifoumi",
-        short_name: "schifoumi",
+        name: "schifumi",
+        short_name: "schifumi",
         description: "",
         icons: [
           {
