@@ -11,12 +11,13 @@ export default defineConfig({
       manifest: {
         theme_color: "#f69435",
         background_color: "#f69435",
-        display: "browser",
+        display: "fullscreen",
         scope: "/",
         start_url: "/",
         name: "schifumi",
         short_name: "schifumi",
-        description: "",
+        description: "schifumi",
+        orientation: "landscape",
         icons: [
           {
             src: "/icon-192x192.png",
@@ -37,8 +38,8 @@ export default defineConfig({
             src: "/icon-512x512.png",
             sizes: "512x512",
             type: "image/png",
-          },
-        ],
+          }
+        ]
       },
       devOptions: {
         enabled: true
