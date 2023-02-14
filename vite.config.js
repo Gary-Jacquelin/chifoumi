@@ -10,8 +10,8 @@ export default defineConfig({
     "display": "browser",
     "scope": "",
     "start_url": "/",
-    "name": "chifoumi",
-    "short_name": "chifoumi",
+    "name": "schifoumi",
+    "short_name": "schifoumi",
     "description": "",
     "icons": [
         {
